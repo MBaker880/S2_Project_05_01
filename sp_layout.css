@@ -133,15 +133,10 @@ ul#comments {
     margin-right: 5%;
 }
 
+/* Footer Styles */
 /* Container collapse rule. Fills empty space. */
 #comments::after {
     clear: both;
     content: '';
     display: table;
 }
-
-
-
-/* Footer Styles */
-
-
