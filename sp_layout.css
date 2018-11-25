@@ -14,10 +14,12 @@
 */
 
 /* Window and Body Styles */
+/* Sets the width of the html to 100%. */
 html {
     height: 100%;
 }
 
+/* Sets body margis to auto and requires page height to be 100%. */
 body {
     width: 95%;
     max-width: 960px;
@@ -27,11 +29,13 @@ body {
     min-height: 100%;
 }
 
+/* Creates a box size for each a, header, li, nav, and ul tag. */
 a, header, li, nav, ul {
     box-sizing: border-box;
 }
 
 /* Row Styles */
+/* Container collapse rule. Fills empty space. */
 .row::after {
     clear: both;
     content: '';
@@ -39,12 +43,14 @@ a, header, li, nav, ul {
 }
 
 /* Page Header Styles */
+/* Floats header image left and sets a width of 70% of the body. */
 body>header>img {
     display: block;
     width: 70%;
     float: left;
 }
 
+/* Creates 2% padding on headers nav while floating it left with a width of 30% of the header. */
 header nav {
     float: left;
     padding-left: 2%;
@@ -52,12 +58,14 @@ header nav {
     width: 30%;
 }
 
+/* Sets a tags to be cover 100% of the header. */
 header nav a {
     display: block;
     width: 100%;
 }
 
 /* Horizontal Navigation List Styles */
+/* Sets horizontal list to float left with a width of 12.5% of the body. */
 .horizontal li {
     display: block;
     width: 12.5%;
@@ -65,6 +73,7 @@ header nav a {
 }
 
 /* Topics Styles */
+/* Sets margins to 2 diffeent values while floating the topics li left with a width of 20% of the ul. */
 ul#topics li {
     display: block;
     width: 20%;
@@ -73,14 +82,17 @@ ul#topics li {
     margin-right: 1.5%
 }
 
+/* Sets only the first list of this types' left margin to a value of 7.75%. */
 #topics li:first-of-type {
     margin-left: 7.75%;
 }
 
+/* Sets only the last list of this types' right margin to the value of 7.75%. */
 #topics li:last-of-type {
     margin-right: 7.75%;
 }
 
+/* Sets image to auto margins with a width of 50%. */
 ul#topics img {
     display: block;
     width: 50%;
@@ -89,11 +101,13 @@ ul#topics img {
 }
 
 /* HR Styles */
+/* Set to a width of 50%. */
 hr {
     width: 50%; 
 }
 
 /* Customer Comment Styles */
+/* Sets margins and asignsa a width of 75%. */
 ul#comments {
     width: 75%;
     margin-top: 40px;
@@ -102,6 +116,7 @@ ul#comments {
     margin-right: auto;
 }
 
+/* Sets margin botom width a width of 50% while floating the comments li to the left. */
 #comments li {
     display: block;
     width: 50%;
@@ -109,6 +124,7 @@ ul#comments {
     margin-bottom: 30px;
 }
 
+/* Floats image to the left while setting margin values with a width of 20%. */
 #comments li img {
     display: block;
     width: 20%;
@@ -117,6 +133,7 @@ ul#comments {
     margin-right: 5%;
 }
 
+/* Container collapse rule. Fills empty space. */
 #comments::after {
     clear: both;
     content: '';
